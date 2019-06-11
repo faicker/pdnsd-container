@@ -1,3 +1,7 @@
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/faicker/pdnsd.svg)](https://hub.docker.com/r/faicker/pdnsd)
+[![MicroBadger Size (tag)](https://img.shields.io/microbadger/image-size/faicker/pdnsd/latest.svg)](https://hub.docker.com/r/faicker/pdnsd)
+[![Docker Pulls](https://img.shields.io/docker/pulls/faicker/pdnsd.svg)](https://hub.docker.com/r/faicker/pdnsd)
+
 pdnsd
 ====
 

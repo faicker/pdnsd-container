@@ -26,8 +26,7 @@ pre_stop() {
     change_file_owner $conf_file $fuid $fgid
 }
 
-trap 'pre_stop' SIGTERM
-trap 'pre_stop' SIGINT
+trap 'pre_stop' SIGTERM SIGINT SIGQUIT
 
 pre_start
 exec pdnsd &
